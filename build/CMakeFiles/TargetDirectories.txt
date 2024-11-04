@@ -1,0 +1,3 @@
+/home/marjipi/Projects/CatFoodMonitor/build/CMakeFiles/CatDetectionProject.dir
+/home/marjipi/Projects/CatFoodMonitor/build/CMakeFiles/edit_cache.dir
+/home/marjipi/Projects/CatFoodMonitor/build/CMakeFiles/rebuild_cache.dir
