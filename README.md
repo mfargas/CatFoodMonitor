@@ -1,6 +1,6 @@
 # Cat Detection Project
 
-A C++ project for detecting when a cat is near a camera, capturing an image, and optionally sending a notification when activity is detected. This project is designed to run on a Raspberry Pi with a PiCamera and uses the **libcamera** library for camera control, as well as **OpenCV** for image processing.
+A C++ project for detecting when a cat is near a camera, capturing an image, and optionally sending a notification when activity is detected. This project is designed to run on a Raspberry Pi with a PiCamera and uses the **rpicam** library for camera control, as well as **OpenCV** for image processing.
 
 ---
 
@@ -44,7 +44,7 @@ CatDetectionProject/ │ ├── src/ │ ├── main.cpp # Main program fi
 - **PiCamera** (with `libcamera` support)
 - **C++17** or later
 - **Libraries**:
-  - **libcamera**: For accessing the PiCamera.
+  - **rpicam**: For accessing the PiCamera.
   - **OpenCV**: For image processing.
   - **CMake**: For building the project.
 
@@ -55,7 +55,7 @@ CatDetectionProject/ │ ├── src/ │ ├── main.cpp # Main program fi
 1. **Update System**:
    ```bash
    sudo apt-get update
-2. Install Dependencies: Install CMake, libcamera, and OpenCV:
+2. Install Dependencies: Install CMake, rpicam, and OpenCV:
     ```bash
     sudo apt-get install cmake libcamera-dev libopencv-dev
 3. Navigate to the project directory and create a build folder:
@@ -75,7 +75,11 @@ CatDetectionProject/ │ ├── src/ │ ├── main.cpp # Main program fi
     ```bash
     ./CatDetectionProject
 2. Image Capture:
-- The program will use the libcamera-still command to capture an image and save it to data/captures/cat_capture.jpg.
+- The program will use the rpicam command to capture an image and save it to data/captures/cat_capture.jpg.
+    ```bash
+    ///Test Raspberry piCamera
+    cd data
+    rpicam-still -o image-test.jpg --width 640 --height 480
 3. Detection:
 - The program will run a basic detection on the captured image. Customize the detect_cat function in detection.cpp for specific detection logic.
 4. Notification:
