@@ -33,7 +33,18 @@ The Cat Detection Project captures images using a PiCamera whenever it detects m
 
 The project is organized into the following structure:
 
-CatDetectionProject/ │ ├── src/ │ ├── main.cpp # Main program file, initializes camera, detection, and notification │ ├── detection.cpp # Cat detection functionality │ └── notification.cpp # Notification functionality (e.g., send email or push notification) │ ├── include/ │ ├── detection.h # Header for detection functionality │ └── notification.h # Header for notification functionality │ ├── data/ │ └── captures/ # Directory for storing captured images │ ├── CMakeLists.txt # CMake configuration file └── README.md # Project README with setup and usage instructions
+CatDetectionProject/ 
+│ ├── src/ 
+| │ ├── main.cpp   # Main program file, initializes camera, detection, and notification 
+| │ ├── detection.cpp   # Cat detection functionality 
+| │ └── notification.cpp   # Notification functionality (e.g., send email or push notification) 
+│ ├── include/ 
+| │ ├── detection.h   # Header for detection functionality 
+| │ └── notification.h   # Header for notification functionality 
+│ ├── data/ 
+| │ └── captures/   # Directory for storing captured images 
+| │ ├── CMakeLists.txt   # CMake configuration file 
+└── README.md
 
 
 ---
