@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CatDetectionProject.dir/src/kittyeats.cpp.o.d"
   "CMakeFiles/CatDetectionProject.dir/src/notification.cpp.o"
   "CMakeFiles/CatDetectionProject.dir/src/notification.cpp.o.d"
+  "CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.o"
+  "CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.o.d"
   "CatDetectionProject"
   "CatDetectionProject.pdb"
 )

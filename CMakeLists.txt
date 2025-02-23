@@ -15,6 +15,7 @@ set(SOURCES
     src/kittyeats.cpp
     src/detection.cpp
     src/notification.cpp
+    src/yolo.cpp
 )
 
 # Add executable target

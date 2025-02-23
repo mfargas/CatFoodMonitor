@@ -201,6 +201,30 @@ src/notification.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatDetectionProject.dir/build.make CMakeFiles/CatDetectionProject.dir/src/notification.cpp.s
 .PHONY : src/notification.cpp.s
 
+src/yolo.o: src/yolo.cpp.o
+.PHONY : src/yolo.o
+
+# target to build an object file
+src/yolo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatDetectionProject.dir/build.make CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.o
+.PHONY : src/yolo.cpp.o
+
+src/yolo.i: src/yolo.cpp.i
+.PHONY : src/yolo.i
+
+# target to preprocess a source file
+src/yolo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatDetectionProject.dir/build.make CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.i
+.PHONY : src/yolo.cpp.i
+
+src/yolo.s: src/yolo.cpp.s
+.PHONY : src/yolo.s
+
+# target to generate assembly for a file
+src/yolo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatDetectionProject.dir/build.make CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.s
+.PHONY : src/yolo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/notification.o"
 	@echo "... src/notification.i"
 	@echo "... src/notification.s"
+	@echo "... src/yolo.o"
+	@echo "... src/yolo.i"
+	@echo "... src/yolo.s"
 .PHONY : help
 
 

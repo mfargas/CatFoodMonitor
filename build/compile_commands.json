@@ -13,5 +13,10 @@
   "directory": "/home/marjipi/Projects/CatFoodMonitor/build",
   "command": "/usr/bin/c++  -I/home/marjipi/Projects/CatFoodMonitor/include -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/CatDetectionProject.dir/src/notification.cpp.o -c /home/marjipi/Projects/CatFoodMonitor/src/notification.cpp",
   "file": "/home/marjipi/Projects/CatFoodMonitor/src/notification.cpp"
+},
+{
+  "directory": "/home/marjipi/Projects/CatFoodMonitor/build",
+  "command": "/usr/bin/c++  -I/home/marjipi/Projects/CatFoodMonitor/include -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.o -c /home/marjipi/Projects/CatFoodMonitor/src/yolo.cpp",
+  "file": "/home/marjipi/Projects/CatFoodMonitor/src/yolo.cpp"
 }
 ]

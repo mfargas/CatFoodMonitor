@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/marjipi/Projects/CatFoodMonitor/src/detection.cpp" "CMakeFiles/CatDetectionProject.dir/src/detection.cpp.o" "gcc" "CMakeFiles/CatDetectionProject.dir/src/detection.cpp.o.d"
   "/home/marjipi/Projects/CatFoodMonitor/src/kittyeats.cpp" "CMakeFiles/CatDetectionProject.dir/src/kittyeats.cpp.o" "gcc" "CMakeFiles/CatDetectionProject.dir/src/kittyeats.cpp.o.d"
   "/home/marjipi/Projects/CatFoodMonitor/src/notification.cpp" "CMakeFiles/CatDetectionProject.dir/src/notification.cpp.o" "gcc" "CMakeFiles/CatDetectionProject.dir/src/notification.cpp.o.d"
+  "/home/marjipi/Projects/CatFoodMonitor/src/yolo.cpp" "CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.o" "gcc" "CMakeFiles/CatDetectionProject.dir/src/yolo.cpp.o.d"
   )
 
 # Targets to which this target links.
